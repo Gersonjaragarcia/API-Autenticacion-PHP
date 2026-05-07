@@ -1,0 +1,83 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.sena-logo {
+    font-weight: bold;
+    color: #39a900;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+/* Contenedor de los formularios */
+.container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos de los campos de entrada */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box; /* Importante para que no se desborde */
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #39a900;
+    box-shadow: 0 0 5px rgba(57, 169, 0, 0.3);
+}
+
+/* Estilos de los botones */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 16px;
+}
+
+.btn-register {
+    background-color: #27ae60;
+    color: white;
+}
+
+.btn-register:hover {
+    background-color: #219150;
+}
+
+.btn-login {
+    background-color: #2980b9;
+    color: white;
+}
+
+.btn-login:hover {
+    background-color: #1f6391;
+}
