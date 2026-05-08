@@ -42,6 +42,14 @@ Se verifica que los usuarios se registran correctamente en la tabla `usuarios`, 
 
 ![Estructura de la Base de Datos](img/prueba_1.png)
 
+---
+
+## 🖥️ Interfaz del Proyecto
+Se desarrolló una interfaz limpia y amigable para facilitar las pruebas de los servicios web de Registro y Login.
+
+![Interfaz de Usuario](img/prueba_2.png)
+
+
 
 - **Respuesta exitosa de Login:**
   ```json
