@@ -49,6 +49,22 @@ Se desarrolló una interfaz limpia y amigable para facilitar las pruebas de los 
 
 ![Interfaz de Usuario](img/prueba_2.png)
 
+---
+## Prueba 1: Registro de un nuevo usuario 
+
+Esta prueba demuestra que el archivo ***registro.php*** y la base de datos están conectados.
+
+ - Ingresa a:  **Respuesta exitosa de Login:** ``` http://localhost:8012/PROYECTO_API_LOGIN/index.html ```
+ - En el cuadro **"Crear Cuenta"**, escribe un usuario nuevo ***(ej: fulanito)*** y una clave.
+ - Presiona **"Registrar"**
+
+### 📸 CAPTURA 1:Interfaz d eusuario con registro
+![Interfaz de Usuario con registro](img/prueba_3.png)
+
+#### 📸 CAPTURA 2: registro del nuevo usuario añadido con exito: {"mensaje":"Usuario registrado con éxito"}.
+![Interfaz de Usuario con registro](img/prueba_4.png)
+
+
 
 
 - **Respuesta exitosa de Login:**
