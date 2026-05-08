@@ -1,6 +1,10 @@
 # Actividad de Aprendizaje: Crear Servicios Web (GA7-220501096-AA5)
+---
+
 
 Este proyecto consiste en el diseño y desarrollo de una API de autenticación básica (Registro y Login) utilizando **PHP** y **MySQL**. La actividad forma parte de la fase de codificación del proyecto de software.
+
+---
 
 ## 🚀 Funcionalidades
 - **Registro de usuarios**: Recibe credenciales y las almacena de forma segura en la base de datos.
@@ -8,12 +12,16 @@ Este proyecto consiste en el diseño y desarrollo de una API de autenticación b
 - **Inicio de sesión**: Verifica las credenciales y devuelve una respuesta en formato JSON.
 - **Servicio Web**: Respuestas estandarizadas para integración con front-end o aplicaciones móviles.
 
+--- 
+
 ## 🛠️ Tecnologías utilizadas
 - **Backend**: PHP 8.x (PDO para conexión segura).
 - **Base de Datos**: MySQL / MariaDB.
 - **Entorno de Servidor**: XAMPP.
 - **Control de Versiones**: Git / GitHub.
 - **Diseño**: HTML5 y CSS3.
+
+--- 
 
 ## 📋 Requisitos e Instalación
 
@@ -61,11 +69,14 @@ Esta prueba demuestra que el archivo ***registro.php*** y la base de datos está
 ### 📸 CAPTURA 1:Interfaz d eusuario con registro
 ![Interfaz de Usuario con registro](img/prueba_3.png)
 
-#### 📸 CAPTURA 2: registro del nuevo usuario añadido con exito: {"mensaje":"Usuario registrado con éxito"}.
+### 📸 CAPTURA 2: registro del nuevo usuario añadido con exito: {"mensaje":"Usuario registrado con éxito"}.
 ![Interfaz de Usuario con registro](img/prueba_4.png)
 
+### 📸 CAPTURA 2 . Persistencia en Base de Datos (phpMyAdmin)
+En esta captura se observa la tabla `usuarios` poblada con los registros creados a través de la API. Se puede apreciar que las contraseñas están debidamente encriptadas, cumpliendo con los estándares de seguridad.
+![Persistencia DB](img/prueba_5.png)
 
-
+---
 
 - **Respuesta exitosa de Login:**
   ```json
@@ -74,8 +85,3 @@ Esta prueba demuestra que el archivo ***registro.php*** y la base de datos está
     "mensaje": "autenticación satisfactoria"
   }
   ```
-
-## 👤 Autor
-- **Aprendiz:** [TU NOMBRE COMPLETO]
-- **Ficha:** [TU NÚMERO DE FICHA]
-- **Instructor:** [NOMBRE DE TU INSTRUCTOR]
